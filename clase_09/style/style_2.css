@@ -1,0 +1,79 @@
+/* Flexbox : Se puede hacer con grillas(Grid) o Bootstrap */
+/* Una manera simple de ordenar, posicionar o alinear nuestras cajas, incluso las hijas */
+/* Es decir, un contenedor de imágenes y queremos que cada una de ellas se separen y que ocupen todo el contenido de la caja. Básicamente, es como el diseño de ivanime con las portadas. */
+/* SIEMPRE SE DECLARA FLEXBOX EN EL ELEMENTO PADRE: Suele llamarse este elemento "Flex-container". Se moldea segun el tamaño de sus hijos */
+/* El elemento hijo tendra las propiedades de colocacion que son declaradas en el elemento padre. Se vuelven responsive. Además, sino tienen altura definida, ocupara todo el tamaño del padre */
+
+.flex-container
+{
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 40%;
+    margin: 0 auto;
+
+    /*Las cajas que desbordan*/
+    overflow: hidden;
+
+    /* Acomoda a todos los elementos flexibles uno debajo del otro. Es RESPONSIVE, a medida que achicamos o agrandemos la pantalla, las cajas se acomodaran de manera vertical u horizontal */
+    flex-wrap: wrap;
+    
+
+    /* Combina a flex-direction y flex-flow en una sola linea 
+    flex-flow: row wrap;
+    */
+    
+    /* justify-content: alinear elementos en su eje principal, row eje-x o column eje-y
+    Sin tenes margin o padding lo acomoda
+    space-between, space-around, 
+    space-evenly: espacio entre cajas igualitaria, sin importar el tamaño de las cajas
+    flex-start: desde el principio
+    flex-end: desde el ultimo elemento */
+    justify-content: space-around;
+
+    /* align-items: alinea en el eje secundario
+    Es decir, si tengo filas, puedo colocar desde donde empieza en el eje y con flex-start. */
+    align-items: flex-start;
+
+    /* Por defecto tiene order: 0*/
+}
+
+.caja
+{
+    border: 1px solid white;
+    background-color: lightblue;
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja.c1
+{
+    order: 3;
+}
+
+.c2
+{
+    order: 1;
+}
+
+.c3
+{
+    order: 2;
+}
+
+/* en el HTML <div class="caja azul">Caja 1</div>
+.caja.azul
+{
+    border: 1px solid white;
+    background-color: lightblue;
+    color: cadetblue;
+}
+*/

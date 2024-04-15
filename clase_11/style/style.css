@@ -1,0 +1,28 @@
+/*
+entonces se podria interpretar asi? libreria = comjunto de funciones reutilizables y framework = conjunto de librerias.
+*conjunto
+*/
+
+body
+{
+    transition: smooth;
+}
+
+.medio
+{
+    height: 80%;
+    background-color: black;
+}
+
+#contacto
+{
+    height: 50%;
+}
+
+/*
+.izq, .mid, .der
+{
+    height: 100%;
+    background-color: aquamarine;
+}
+*/

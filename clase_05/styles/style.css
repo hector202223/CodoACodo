@@ -1,0 +1,41 @@
+/* Asi se comenta */
+
+h1
+{
+    text-align: center;
+    color: blueviolet;
+}
+
+h3
+{
+    /* color: rgb(255, 153, 0) !important; */
+    color: rgb(255, 153, 0);
+    font-size: 23px;
+}
+
+.verde
+{
+    color: green;
+}
+
+p
+{
+    color: rgb(207, 29, 29);
+    font-size: 20px;
+}
+
+.p_rosa
+{
+    color: rgb(224, 41, 224);
+}
+
+.textoGrande
+{
+    font-size: 25px;
+}
+
+#id_azul
+{
+    color: blue ;
+    font-size: 34px;
+}

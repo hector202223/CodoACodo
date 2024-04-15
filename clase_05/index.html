@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+
+    <!-- Otra manera de usar CSS. Se llama ESTILOS INTERNOS, no es óptimo 
+    <style>
+        p
+        {
+            color: brown;
+        }
+    </style> -->
+
+    <!-- La manera PROFESIONAL -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <h1>- Clase CSS -</h1>
+    
+    <!-- CSS - Sintaxis
+        Selector
+        {
+            propiedad : valor;
+        }
+    -->
+
+    <!-- Entorpece el código. Esto se llama CSS en línea. No hacer.
+    <p style="font-size: 30px;"> Hola este es un parrafo</p> -->
+
+
+    <p> Hola a todos </p>
+
+    <!-- CLASES -->
+    <!-- Clase, es una especificidad que quiero que tenga una etiqueta para manejarla con CSS -->
+    <p class="p_rosa"> Adios a todos </p>
+    <p class="p_rosa textoGrande"> Adios a todos Grande</p>
+
+    <!-- ESPECIFIDAD: Las clases son mas importantes que las etiquetas generales (Si la clase pertenece a la etiqueta). IMPORTANTE: Si la etiqueta especifica un dato, tambien lo "hereda" la clase especifica. PJ:-->
+    <h3>Soy un h3 por defecto o general</h3>
+    <h3 class="verde"> Soy un h3 verde</h3>
+
+    <!-- ID: No se repiten -->
+    <!-- Los ID tienen la Jerarquia Mayor. 
+    ID -> Class -> Etiqueta     
+    Salvo que una etiqueta de menor jerearquía tenga "!important" sobre una propiedad  -->
+    <h3 id="id_azul"> Soy un h3 con ID</h3>
+
+    <!-- crear un html y css, modificar el titulo solamente -->
+
+</body>
+</html>

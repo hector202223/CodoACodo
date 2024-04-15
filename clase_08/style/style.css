@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*PSEUDOCLASES
+root: Creamos variables para modificar cualquier cosa global de la web*/
+:root
+{
+    --main-bg-color: red;
+    --secondary-bg-color: blue;
+    --footer-bg-color: grey;
+}
+
+.arriba
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--main-bg-color);
+}
+
+.arriba:hover
+{
+    background-color: var(--footer-bg-color);
+}
+
+.centro
+{
+    width: 100%;
+    height: 30%;
+    background-color: var(--secondary-bg-color);
+}
+
+footer
+{
+    width: 100%;
+    height: 20%;
+    background-color: var(--footer-bg-color);
+}
+
+a
+{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+/* PSEUDOCLASES
+hover- cuando pasamos el mouse sobre algo aparece un efecto en la pagina, funciona en los a, div.*/
+
+a:hover
+{
+    color: black;
+    background-color: red;
+    font-weight: 15px;
+}
+
+/*visited: Cuando ya hicimos click en un enlace*/
+a:visited
+{
+    color: blue;
+    background-color: aqua;
+}
+
+/*Number of child(nth-child): Selecciona al primer elemento de los p del Div
+(n): un elemento en particular
+(even): todos los pares
+(odd): elemento impares*/
+
+p:nth-child(odd)
+{
+    color: red;
+    background-color: pink;
+}
+
+p:nth-child(even)
+{
+    color: aliceblue;
+    background-color: black;
+}

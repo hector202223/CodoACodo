@@ -1,0 +1,56 @@
+/* PSEUDOELEMENTO*/
+/*li::first-letter, selecciona la primera letra de los elementos LI*/
+li::first-letter
+{
+    color: rgb(255, 0, 0);
+}
+
+
+li::first-line
+{
+    color: rgb(255, 0, 200);
+}
+
+
+/*Antes del contenido de l1, agrego contenido. NO ES TEXTO, AGREGA ESPACIO*/
+li::before
+{
+    content: "()";
+}
+
+li::after
+{
+    content: " <>";
+}
+
+/*TAMBIEN SE PUEDE HACER CON IMAGENES.
+Ya puedo hacer que cuando una imagen de un anime al apoyar el click se agrande.
+Para opacarlo se usan filtros*/
+/*ACA EMPIEZA LA TRANSICION*/
+.caja
+{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    /*rotate(ndeg)
+    transform: rotate(45deg);
+    transform: scale(1.03);
+    transform: translate(100px, 40px);*/
+    transition-property: width background-color;
+    transition-property: filter border;
+    filter: grayscale();
+    border: 3px solid rgb(238, 61, 238) ;
+    transition-duration: 0.5s;
+    /*transition-delay: 1s;*/
+    transition-timing-function: ease-out;
+
+}
+
+/*ACA TERMINA LA TRANSICION*/
+.caja:hover
+{
+    filter: grayscale(0);
+    background-color: rgb(161, 61, 255);
+    width: 300px;
+    border: 10px solid aqua;
+}

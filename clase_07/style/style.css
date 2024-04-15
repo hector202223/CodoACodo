@@ -1,0 +1,118 @@
+/*.header
+{
+    background-color: burlywood;
+    width: 100%;
+    height: 20%;
+} */
+
+/* Si hay texto, con: 
+    width: auto;
+    height: auto; se ajusta automaticamente la caja
+*/
+.caja
+{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    /*scroll,visible,hidden,*/
+    overflow-x: scroll;
+}
+
+/*Queremos solo mover el contenido dentro del div
+Lo que hago es restarle el valor del padding al del width y height*/
+.cajaUno
+{
+    background-color: orange;
+    width: 200px;
+    height: 160px; /* 200px-(20px+20px)
+    /*padding-top,padding-left*/
+    /*En forma de reloj*/
+    padding: 20px 0 20px 0;
+    /*padding-left: 20px;*/
+}
+
+/* Con margin-top muevo a la CajaTres */
+.cajaDos
+{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.cajaTres
+{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    margin: auto; /*Automatico al centro "si tenes el espacio disponible"*/
+    /*solid, dotted. dashed, doubled, ridge, outset, dot-dash, wave, inset, groove*/
+    border: 3px solid rgb(81, 255, 0);
+    border-bottom: 2px solid black;
+}
+
+.cajaCuatro
+{
+    background-color: rgb(133, 81, 255);
+    width: 200px;
+    height: 200px;
+    /*display: none = Quita el elemento de la pagina web
+    inline = Ocupa el espacio necesario para empezar una nueva linea.
+    block = siempre va a colocar el texto o imagen abajo
+    inline-block=Podes colocar el elemento al lado de la CAJA*/
+    display: inline-block;
+}
+
+.cajaGrande{
+    background-color: rgb(133, 81, 255);
+    width: 100%;
+    height: 20%;
+}
+
+.izq
+{
+    background-color: rgb(255, 81, 81);
+    width: 33%;
+    height: 100%;
+    float: left;
+    /*display: inline-block;*/
+}
+
+.mid
+{
+    background-color: rgb(81, 255, 104);
+    width: 34%;
+    height: 100%;
+    display: inline-block;
+}
+
+
+.der
+{
+    background-color: rgb(255, 9, 202);
+    width: 33%;
+    height: 100%;
+    /*display: inline-block;*/
+    float: right;
+}
+
+/*POSICIONAMIENTO: static, relative,*/
+/*EL MARGEN AGREGA ESPACIO, EL RELATIVO SOLO MUEVE A LA ETIQUETA, SON RELATIVAS PORQUE LO HACE EN BASE A LA POSICIÓN EN LA QUE ESTÁ, SIGUE OCUPANDO EL LUGAR ORIGINAL*/
+/*relative, sticky (se pega al la pagina cuando scrolleamos), fixed(siempre se ve la parte de arriba del navbar)*/
+.box
+{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 280px;
+    left: 20px;
+}
+
+.box2
+{
+    background-color: rgb(25, 78, 121);
+    width: 300px;
+    height: 300px;
+}
