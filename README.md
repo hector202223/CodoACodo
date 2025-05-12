@@ -4,9 +4,9 @@ Repositorio creado para conservar los trabajos realizados durante la cursada.
 [web](https://hector202223.github.io/CodoACodo/)
 
 
-[clase 1](https://hector202223.github.io/CodoACodo/clase_1/firsPage.html)
+[clase 1](clase_01/)
 
-[clase 2](https://hector202223.github.io/CodoACodo/clase_2/index.html)
+[clase 2](clase_02/index.html)
 
 [clase 3](https://hector202223.github.io/CodoACodo/clase_3/index.html)
 
