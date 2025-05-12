@@ -1,36 +1,35 @@
 # CodoACodo
 Repositorio creado para conservar los trabajos realizados durante la cursada.
 
-[clase 1](/clase_01/FirsPage.html)
 
-[clase 2](clade_02/index.html)
+[clase 1](https://hector202223.github.io/CodoACodo/clase_3/FirsPage.html)
 
-[clase 3](clade_03/index.html)
+[clase 2](https://hector202223.github.io/CodoACodo/clase_2/)
 
-[clase 3](clase_3/index.html)
+[clase 3](https://hector202223.github.io/CodoACodo/clase_3/)
 
-[clase 4](clase_4/index.html)
+[clase 4](https://hector202223.github.io/CodoACodo/clase_4/)
 
-[clase 5](clase_5/index.html)
+[clase 5](https://hector202223.github.io/CodoACodo/clase_5/)
 
-[clase 6](clase_6/index.html)
+[clase 6](https://hector202223.github.io/CodoACodo/clase_6/)
 
-[clase 7](clase_7/index.html)
+[clase 7](https://hector202223.github.io/CodoACodo/clase_7/)
 
-[clase 8](clase_8/index.html)
+[clase 8](https://hector202223.github.io/CodoACodo/clase_8/)
 
-[clase 9](clase_9/index.html)
+[clase 9](https://hector202223.github.io/CodoACodo/clase_9/)
 
-[clase 10](clase_10/index.html)
+[clase 10](https://hector202223.github.io/CodoACodo/clase_10/)
 
-[clase 11](clase_11/index.html)
+[clase 11](https://hector202223.github.io/CodoACodo/clase_11/)
 
-[clase 12](clase_12/index.html)
+[clase 12](https://hector202223.github.io/CodoACodo/clase_12/)
 
-[clase 13](clase_13/index.html)
+[clase 13](https://hector202223.github.io/CodoACodo/clase_13/)
 
-[clase 14](clase_14/index.html)
+[clase 14](https://hector202223.github.io/CodoACodo/clase_14/)
 
-[clase 15](clase_15/index.html)
+[clase 15](https://hector202223.github.io/CodoACodo/clase_15/)
 
-[clase 16](clase_16/index.html)
+[clase 16](https://hector202223.github.io/CodoACodo/clase_16/)
