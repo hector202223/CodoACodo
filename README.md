@@ -2,8 +2,8 @@
 Repositorio creado para conservar los trabajos realizados durante la cursada.
 
 [clase 1](clase_01/FirsPage.html)
-[clase 2][clade_02/index.html)
-[clase 3][clade_03/index.html)
+[clase 2](clade_02/index.html)
+[clase 3](clade_03/index.html)
 [clase 3](clase_3/index.html)
 [clase 4](clase_4/index.html)
 [clase 5](clase_5/index.html)
