@@ -1,7 +1,7 @@
 # CodoACodo
 Repositorio creado para conservar los trabajos realizados durante la cursada.
 
-[clase 1](clase_01/FirsPage.html)
+[clase 1](/clase_01/FirsPage.html)
 
 [clase 2](clade_02/index.html)
 
