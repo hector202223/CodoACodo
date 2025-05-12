@@ -2,19 +2,35 @@
 Repositorio creado para conservar los trabajos realizados durante la cursada.
 
 [clase 1](clase_01/FirsPage.html)
+
 [clase 2](clade_02/index.html)
+
 [clase 3](clade_03/index.html)
+
 [clase 3](clase_3/index.html)
+
 [clase 4](clase_4/index.html)
+
 [clase 5](clase_5/index.html)
+
 [clase 6](clase_6/index.html)
+
 [clase 7](clase_7/index.html)
+
 [clase 8](clase_8/index.html)
+
 [clase 9](clase_9/index.html)
+
 [clase 10](clase_10/index.html)
+
 [clase 11](clase_11/index.html)
+
 [clase 12](clase_12/index.html)
+
 [clase 13](clase_13/index.html)
+
 [clase 14](clase_14/index.html)
+
 [clase 15](clase_15/index.html)
+
 [clase 16](clase_16/index.html)
